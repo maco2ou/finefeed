@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.feedbr" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/minionYellow</item>
+        <item name="colorPrimaryVariant">@color/minionYellowAlt</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/evilMinionPurple</item>
+        <item name="colorSecondaryVariant">@color/evilMinionPurpleAlt</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="background">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">?attr/background</item>
+    </style>
+
+    <style name="Theme.feedbr.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.feedbr.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.feedbr.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

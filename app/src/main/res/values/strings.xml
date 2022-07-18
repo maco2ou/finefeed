@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FineFeed</string>
+    <string name="title_activity_add_feed">AddFeedActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_libraries">LibrariesActivity</string>
+    <string name="title_activity_articles_from_feed">ArticlesFromFeedActivity</string>
+</resources>
